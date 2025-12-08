@@ -1,0 +1,27 @@
+/* 1. HLAVNÍ ČERVENÁ KRABICE */
+.hero {
+    border: 5px solid red;
+    padding: 20px;
+}
+
+/* 2. LEVÁ MODRÁ KRABICE */
+.levySloupec {
+    border: 3px solid blue;
+    padding: 10px;
+    width: 45%;
+}
+
+/* ZVÝRAZNĚNÍ TEXTU (SPAN) */
+.zvyrazneni {
+    color: blue;
+}
+
+/* 3. PRAVÁ ZELENÁ KRABICE */
+.pravySloupec {
+    border: 3px solid green;
+    padding: 10px;
+    
+    /* TOTO JE ODPOVĚĎ NA VAŠI OTÁZKU: */
+    margin-top: 20px;       /* Odstrčí se od krabice nad sebou o 20 pixelů */
+    width: 45%;
+}
