@@ -22,7 +22,7 @@
 .pravySloupec {
     /*border: 3px solid green;*/
     padding: 10px;
-    
+
     /* TOTO JE ODPOVĚĎ NA VAŠI OTÁZKU: */
     /*margin-top: 20px;       /* Odstrčí se od krabice nad sebou o 20 pixelů */
     width: 45%;
@@ -30,12 +30,24 @@
     margin-left: 5px;
 }
 
-.prostredniSloupec {
+/*.prostredniSloupec {
     border: 3px solid orange;
     padding: 10px;
     width: 30%;
     float: left;
     margin-top: 20px;
     margin-left: 5px;
+}*/
 
+.badge {
+    background-color: blue;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
