@@ -2,13 +2,15 @@
 .hero {
     border: 5px solid red;
     padding: 20px;
+    overflow: auto;
 }
 
 /* 2. LEVÁ MODRÁ KRABICE */
 .levySloupec {
     border: 3px solid blue;
     padding: 10px;
-    width: 45%;
+    width: 30%;
+    float: left;
 }
 
 /* ZVÝRAZNĚNÍ TEXTU (SPAN) */
@@ -23,5 +25,17 @@
     
     /* TOTO JE ODPOVĚĎ NA VAŠI OTÁZKU: */
     margin-top: 20px;       /* Odstrčí se od krabice nad sebou o 20 pixelů */
-    width: 45%;
+    width: 30%;
+    float: left;
+    margin-left: 5px;
+}
+
+.prostredniSloupec {
+    border: 3px solid orange;
+    padding: 10px;
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+
 }
