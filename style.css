@@ -1,15 +1,15 @@
 /* 1. HLAVNÍ ČERVENÁ KRABICE */
 .hero {
-    border: 5px solid red;
+    /*border: 5px solid red;*/
     padding: 20px;
     overflow: auto;
 }
 
 /* 2. LEVÁ MODRÁ KRABICE */
 .levySloupec {
-    border: 3px solid blue;
+    /*border: 3px solid blue;*/
     padding: 10px;
-    width: 30%;
+    width: 45%;
     float: left;
 }
 
@@ -20,13 +20,13 @@
 
 /* 3. PRAVÁ ZELENÁ KRABICE */
 .pravySloupec {
-    border: 3px solid green;
+    /*border: 3px solid green;*/
     padding: 10px;
     
     /* TOTO JE ODPOVĚĎ NA VAŠI OTÁZKU: */
-    margin-top: 20px;       /* Odstrčí se od krabice nad sebou o 20 pixelů */
-    width: 30%;
-    float: left;
+    /*margin-top: 20px;       /* Odstrčí se od krabice nad sebou o 20 pixelů */
+    width: 45%;
+    float: right;
     margin-left: 5px;
 }
 
