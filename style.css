@@ -1,3 +1,12 @@
+/* --- DEBUG REŽIM (Až to budete mít hotové, smažte to nebo zakomentujte) --- */
+* {
+    /* 1. Outline (obrys) se nepočítá do šířky prvku, takže nerozbije layout */
+    outline: 1px solid lime; 
+    
+    /* 2. Jemně červené pozadí, abyste viděl průhledné prvky */
+    background-color: rgba(255, 0, 0, 0.1); 
+}
+
 /* 1. HLAVNÍ ČERVENÁ KRABICE */
 .hero {
     /*border: 5px solid red;*/
